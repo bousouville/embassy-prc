@@ -168,9 +168,9 @@ function Banner() {
           </Link>
         </div>
         <Link href="/history" className="shrink-0" aria-label={t("meta.history")}>
-          <span className="flag-frame h-[74px]" aria-hidden="true">
+          <span className="flag-frame block h-[50px] w-[70px]" aria-hidden="true">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/flag-og.png" alt="" width={43} height={64} />
+            <img src="/images/flag.png" alt="" width={74} height={42} />
           </span>
         </Link>
       </div>

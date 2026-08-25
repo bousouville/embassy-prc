@@ -30,9 +30,9 @@ export function HistoryView({ doc }: { doc: Doc }) {
       flag: false,
     },
     {
-      src: "/images/flag-og.png",
-      width: 65,
-      height: 98,
+      src: "/images/flag.png",
+      width: 132,
+      height: 88,
       caption: t("img.flag"),
       flag: true,
     },
@@ -51,7 +51,7 @@ export function HistoryView({ doc }: { doc: Doc }) {
         {images.map((img) => (
           <figure key={img.src} className="m-0 text-center">
             {img.flag ? (
-              <span className="flag-frame inline-block" style={{ height: 108 }}>
+              <span className="flag-frame inline-block" style={{ height: 96 }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={img.src}
